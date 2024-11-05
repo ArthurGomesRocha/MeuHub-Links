@@ -1,0 +1,56 @@
+@charset "utf-8";
+/*
+Principais cores do site: 
+Branco - #eaeaea
+Inox - #acaba9
+Cinza - #75706f
+Chumbo - #2c2c2c
+Preto - #121212
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend:wght@100..900&family=Manrope:wght@200..800&family=Meow+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Tera:wght@100..900&family=Lexend:wght@100..900&family=Manrope:wght@200..800&family=Meow+Script&family=Pacifico&display=swap');
+
+body{
+    background: radial-gradient(circle, #eaeaea, #acaba927, #75706f42, #2c2c2c46);
+}
+
+.logosite{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 300px;
+    box-shadow: inset 10px 10px 10px black;
+    box-shadow: -1px 0px 10px rgba(0, 0, 0, 0.452);
+}
+
+.h1header{
+    text-align: center;
+    font-family: 'Lexend', sans-serif;
+    font-size: 3em;
+    padding: 0px;
+    color: #2c2c2c;
+    margin-bottom: -35px;
+    
+}
+
+.h2header{
+    font-family: "Lexend Tera";
+    text-align: center;
+    color: #CF2B14;
+
+}
+
+main{
+    background-color: #acaba9;
+    border: 1px solid #75706f4b;
+    border-radius: 25px 0px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.281);
+    width: 80%;
+    height: 70vh;
+    padding: 25px;
+    margin: auto;
+}
